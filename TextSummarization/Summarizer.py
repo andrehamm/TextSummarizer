@@ -1,6 +1,10 @@
-# Andre Hamm
-# Command line Text Summarizer using Skip-Thought networks
-# CMPT 390
+"""
+Andre Hamm
+Command line Text Summarizer using Skip-Thought networks
+CMPT 390
+
+Command Line Tool for Text (Phone Call Transcript) Summarization.
+"""
 
 import os 
 import sys
@@ -15,7 +19,7 @@ import tools
 from sklearn.decomposition import PCA
 import click 
 
-# SUMMARY_LENGTH = 15
+# SUMMARY_LENGTH = 15 for returning fix length summarie
 
 class Summarizer:
     def __init__(self, trainedModel=False):
