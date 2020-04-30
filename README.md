@@ -34,3 +34,6 @@ Options:
 
   --help                     Show this message and exit.
 
+### References
+* https://github.com/jatana-research/email-summarization/blob/master/email_summarization.py
+* https://github.com/ryankiros/skip-thoughts
